@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- CSS only -->
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+ 
+ <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="style.css">
+<!-- JS, Popper.js, and jQuery -->
+
+	<title></title>
+</head>
+<body>
+<div class="container-fluid">
+	
+<div class="row ">
+  <div class="col-sm-3 col-md-3 bg-dark ">
+    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+      <h3 class="text-white pt-3 hh">Pedhi Application</h3>
+      <h4 class="text-white hh">admin</h4>
+      <!-- ============= -->
+      <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true"><i class="fa fa-folder-open-o fa-2x" aria-hidden="true"></i> Category</a>
+      <!-- ================= -->
+      <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#"><i class="fa fa-address-book-o fa-2x" aria-hidden="true"></i> pedhi member
+    <span class="caret"></span></a>
+    <ul class="dropdown-menu bg-dark">
+      <li> <a class="nav-link" id="v-pills-add-tab" data-toggle="pill" href="#v-pills-add" role="tab" aria-controls="v-pills-add" aria-selected="false"><i class="fa fa-circle-thin" aria-hidden="true"></i> add pedhi Member</a></li>
+       <li> <a class="nav-link" id="v-pills-edit-tab" data-toggle="pill" href="#v-pills-edit" role="tab" aria-controls="v-pills-edit" aria-selected="false"><i class="fa fa-circle-thin" aria-hidden="true"></i> edit pedhi Member</a></li>
+       <li> <a class="nav-link" id="v-pills-delete-tab" data-toggle="pill" href="#v-pills-delete" role="tab" aria-controls="v-pills-delete" aria-selected="false"><i class="fa fa-circle-thin" aria-hidden="true"></i> delete pedhi Member</a></li>
+    </ul>
+
+      <!-- ////////////////////////////// -->
+      <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false"><i class="fa fa-clock-o fa-2x" aria-hidden="true"></i> View Tree</a>
+      <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false"><i class="fa fa-clock-o fa-2x" aria-hidden="true"></i> Settings</a>
+      <a class="nav-link" id="v-pills-logout-tab" data-toggle="pill" href="#v-pills-logout" role="tab" aria-controls="v-pills-logout" aria-selected="false"><i class="fa fa-clock-o fa-2x" aria-hidden="true"></i> Logout</a>
+
+    </div>
+    
+  </div>
+  <div class="col-sm-9 col-md-9">
+    <div class="tab-content" id="v-pills-tabContent">
+      <!-- ============category================= -->
+      <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+         
+         <nav aria-label="breadcrumb ">
+              <nav aria-label="breadcrumb">
+              <ol class="breadcrumb ">
+            <li class="breadcrumb-item mr-auto"><a href="#"class="brd">Tree view</a></li>
+              <li class="breadcrumb-item "><a href="#">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Library</li>
+          </ol>
+        </nav>
+
+        <div class="hom" >
+          <div class="center">
+            <h1>Pedhi <span style="color: #e74c3c">member Home</span></h1>
+          </div>
+        </div>
+        
+       </div>
+       <!-- ================================= -->
+    <!--   <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">just i like it most</div> -->
+      <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">dont worried bro always hard working</div>
+      <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">it awesome time for me</div>
+      <div class="tab-pane fade" id="v-pills-logout" role="tabpanel" aria-labelledby="v-pills-logout-tab"> that page is logout time for me</div>
+      <!-- //////////////////////////////// -->
+      <div class="tab-pane fade" id="v-pills-add" role="tabpanel" aria-labelledby="v-pills-add-tab">
+         <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+         
+         <nav aria-label="breadcrumb ">
+              <nav aria-label="breadcrumb">
+              <ol class="breadcrumb ">
+            <li class="breadcrumb-item mr-auto"><a href="#"class="brd">Tree view</a></li>
+              <li class="breadcrumb-item "><a href="#">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Library</li>
+          </ol>
+        </nav>
+
+        <div class="home py-5" >
+          <div class="container-fluid bg-danger formm mb-5">
+            You can write gujarati in hindi
+          </div>
+          <!-- <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-4">
+                <label>first name</label><br>
+                <input type="text" name="">
+              </div>
+            </div>
+          </div> -->
+            <div class="container-fluid">
+              <form>
+              <div class="form-row">
+                 <div class="form-group col-md-4">
+                  <label for="inputState">State</label>
+                  <select id="inputState" class="form-control">
+                    <option >..select...</option>
+                    <option>sushil</option>
+                    <option>Imran</option>
+                    <option>Prabhu</option>
+                    <option>Anand</option>
+                  </select>
+                </div>
+                <div class="form-group col-md-4">
+                  <label>Person Name</label>
+                  <input type="text" class="form-control" id="inputPassword4">
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="inputEmail4">Speacial note</label>
+                  <input type="text" class="form-control" id="inputEmail4">
+                </div>
+              </div>
+                <button  type="submit" class="btn btn-primary fmb">Add member</button>
+          </form>
+            </div>
+        </div>
+        
+       </div>
+      </div>
+      <!-- ////////////////////////////////////////// -->
+      <div class="tab-pane fade" id="v-pills-edit" role="tabpanel" aria-labelledby="v-pills-edit-tab"> that in this page we will edit member</div>
+      <div class="tab-pane fade" id="v-pills-delete" role="tabpanel" aria-labelledby="v-pills-delete-tab"> that in this page we will delete member</div>
+    </div>
+  </div>
+</div>
+</div>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
